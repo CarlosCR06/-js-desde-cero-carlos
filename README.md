@@ -1,3 +1,12 @@
+- **Nombre:** Carlos Castro
+- **Curso:** 2º DAW
+
+### hola.html
+![Captura hola.html](00JSyEntorno/captura_hola.png)
+
+### formulario.html
+![Captura formulario.html](00JSyEntorno/captura_saludo.png)
+
 # JS desde cero en el navegador... antes que REACT.
 
 El objetivo de esta práctica es crear un formulario básico en HTML y JavaScript que permita saludar a un usuario. Publicarlo en un repositorio de GitHub con GitHub Pages. Todo debes documentarlo con un pantallazo en este mismo archivo y personalizarlo con tu tus datos personales.
@@ -126,19 +135,39 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
 
    
 ## Parte 6: Preguntas de reflexión
+ 
+1. **¿Qué hace `console.log`?**
 
-1. ¿Qué hace `console.log`?
-2. ¿Qué ocurre si cambias el valor de la variable desde la consola? ¿Se puede?
-3. ¿Para qué sirve la consola del navegador en este contexto?
-4. Para qué sirve el archivo HTML en este contexto?
-5. ¿Por qué es una buena práctica separar el código JavaScript del HTML?
-6. Por qué se llama Vanilla JavaScript?
-7. Cuándo se usa JavaScript puro y cuándo se usan frameworks o librerías como REACT?
-8. Cómo se define una función en JS
-9. Sobre el código demuestra la diferencia entre let y const
-10. Indica en el código:
-   1. Si puede evitarse el uso de let. Qué hace
-   2. Cuántos eventos hay en el código, cuáles son y para qué sirven
+   Muestra valores, mensajes o resultados en la consola del navegador y es útil para verificar qué está haciendo el código.
+2. **¿Qué ocurre si cambias el valor de la variable desde la consola? ¿Se puede?**
 
+   Sí, se puede, si la variable es declarada con let, puedes reasignarle un nuevo valor directamente en la consola y el cambio se aplica.
+3. **¿Para qué sirve la consola del navegador en este contexto?**
 
+   Sirve para probar código JavaScript, ver mensajes de console.log y depurar errores.
+4. **¿Para qué sirve el archivo HTML en este contexto?**
 
+   Es la estructura base de la página web, define el contenido visible y sirve como contenedor donde se ejecuta y se muestra el resultado del código.
+5. **¿Por qué es una buena práctica separar el código JavaScript del HTML?**
+
+   Ya que mejora la organización y legibilidad de este y permite reutilizar el JS en varias páginas.
+6. **¿Por qué se llama Vanilla JavaScript?**
+
+   Porque se refiere a JavaScript puro por así decirlo, sin usar frameworks ni librerías externas.
+7. **¿Cuándo se usa JavaScript puro y cuándo se usan frameworks o librerías como REACT?**
+
+   JS puro se usa para proyectos sencillos o para entender bien la base del lenguaje. Los frameworks como React se usan en proyectos grandes que requieren un manejo eficiente.
+8. **Cómo se define una función en JS**
+
+   Con la palabra clave function, seguida de un nombre, paréntesis con sus parámetros y llaves para el código.
+9. **Sobre el código demuestra la diferencia entre let y const**
+
+   En "formulario.js", "const nombre = ..." se usa porque ese valor no se reasigna dentro del evento y "let" se usaría si la variable necesitara cambiar de valor después.
+10. **Indica en el código:**
+11. **Si puede evitarse el uso de let. Qué hace**
+
+    Sí, en el código del formulario podría usarse "const" en vez de "let", ya que las variables no se reasignan una vez declaradas. "let" se usa cuando se espera que el valor cambie más adelante, si no cambia, const es más recomendable.
+12. **Cuántos eventos hay en el código, cuáles son y para qué sirven**
+
+    Hay 2 eventos, DOMContentLoaded y Submit. DOMContentLoaded se dispara cuando el HTML ha terminado de cargarse y asegura que los elementos existan antes de manipularlos mientras que Submit se dispara al enviar el formulario, se usa event.preventDefault() para evitar que la página se recargue, y luego se captura el valor del input para mostrar el saludo.
+ 
