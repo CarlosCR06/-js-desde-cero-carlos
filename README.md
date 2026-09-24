@@ -1,12 +1,6 @@
 - **Nombre:** Carlos Castro
 - **Curso:** 2º DAW
 
-### hola.html
-![Captura hola.html](00JSyEntorno/captura_hola.png)
-
-### formulario.html
-![Captura formulario.html](00JSyEntorno/captura_saludo.png)
-
 # JS desde cero en el navegador... antes que REACT.
 
 El objetivo de esta práctica es crear un formulario básico en HTML y JavaScript que permita saludar a un usuario. Publicarlo en un repositorio de GitHub con GitHub Pages. Todo debes documentarlo con un pantallazo en este mismo archivo y personalizarlo con tu tus datos personales.
@@ -59,6 +53,7 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
    let nombre = "Anita"
    nombre
    ```
+   ![alt text](00JSyEntorno/image.png)
 
 ## Parte 3: Tu primer archivo HTML + JavaScript
 
@@ -96,6 +91,7 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
    ```
 - Publica tu proyecto en el repositorio de GitHub y usa GitHub Pages para alojarlo. Sigue [esta guía](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site) para hacerlo.
 
+   ![Captura hola.html](00JSyEntorno/captura_hola.png)
 
 ## parte 5: formulario HTML + JavaScript
 1. Crea un archivo llamado `formulario.html` en la misma carpeta `00JSyEntorno`.
@@ -133,6 +129,7 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
    ```
 6. Desde VSCode abre `formulario.html` en tu navegador y prueba el formulario.
 
+   ![Captura formulario.html](00JSyEntorno/captura_saludo.png)
    
 ## Parte 6: Preguntas de reflexión
  
